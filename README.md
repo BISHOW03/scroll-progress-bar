@@ -4,6 +4,7 @@ A simple visual scroll progress bar that appears at the top of the page and fill
 
 ## 🌐 Demo
 Displays a thin bar that tracks how much of the page has been scrolled.
+👉[check out here](https://bishow03.github.io/scroll-progress-bar/)
 
 ## 🛠️ Technologies
 - HTML
