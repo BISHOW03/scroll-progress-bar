@@ -1,0 +1,29 @@
+/* Progress bar container - fixed at top */
+#progressContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #f3f3f3;
+  z-index: 9999;
+}
+
+/* Progress bar itself */
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background-color: #4caf50; /* Green color */
+  transition: width 0.25s ease-out;
+}
+
+/* Just to create scrollable content */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  height: 200px; /* Long page */
+  padding: 20px;
+}
